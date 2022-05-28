@@ -1,0 +1,136 @@
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 5em;
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+h1:hover{
+  transform: scale(1.1);
+  transition: all .5s ease-in-out;
+}
+
+
+.intro {
+  font-size: 2.25rem;
+  font-family: cursive;
+  color: #66BFBF;
+  font-weight: normal;
+}
+.img{
+  border-radius: 100%;
+}
+.img:hover{
+  transform: scale(1.1);
+  transition: all .3s ease-in-out;
+}
+
+h3 {
+  color: #11999E;
+}
+
+h2 {
+  color: #66BFBF;
+}
+
+a {
+  color: #11999E;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: cursive;
+}
+
+.top-cloud {
+  position: relative;
+  left: 450px;
+}
+
+.botton-cloud {
+  position: absolute;
+  left: 270px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.me {
+  color: #40514E;
+  width: 30%;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+.width {
+  width: 70%;
+  margin: auto;
+}
+
+hr {
+  border-style: dotted;
+  border-width: 7px 0 0 0;
+  width: 5%;
+  color: #DFDFDE;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 10px 20px ;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #33E3CB;
+  background-image: -webkit-linear-gradient(top, #33E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #33E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #33E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #33E3CB, #2BC4AD);
+  background-image: -webkit-gradient(to bottom, #33E3CB, #2BC4AD);
+  text-decoration: none;
+
+}
+
+.bottom-container {
+  height: 150px;
+  background-color: #66BFBF;
+}
+
+.icon{
+  padding: 10px;
+
+}
+.icon :hover{
+  transform: scale(1.12);
+  transition: all .1s ease-in-out;
+
+}
+
+.white {
+  color: white;
+}
